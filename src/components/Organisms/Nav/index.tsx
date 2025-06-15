@@ -18,7 +18,7 @@ const Index = () => {
         </div>
       <div className='mt-auto pl-4 pb-10 flex flex-row gap-2 items-center'>
         <Avatar>
-          <AvatarFallback className='bg-gray-300'>CN</AvatarFallback>
+          <AvatarFallback className='bg-gray-300'>AG</AvatarFallback>
         </Avatar>
         <div className='text-sm'>
           <p>Ana Maria Granada Rodas</p>
