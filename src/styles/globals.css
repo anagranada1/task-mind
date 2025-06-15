@@ -9,6 +9,8 @@
 :root {
   --color-primary: #00305B;
   --color-primary-hover: #004B87;
+  --color-secondary: #F0F7FF;
+  --color-secondary-hover: rgba(26, 49, 111, 0.7);
   --color-background: #F4F7FA;
   --foreground: oklch(0.145 0 0);
   --radius: 0.625rem;
@@ -18,8 +20,6 @@
   --popover-foreground: oklch(0.145 0 0);
   --primary: oklch(0.205 0 0);
   --primary-foreground: oklch(0.985 0 0);
-  --secondary: oklch(0.97 0 0);
-  --secondary-foreground: oklch(0.205 0 0);
   --muted: oklch(0.97 0 0);
   --muted-foreground: oklch(0.556 0 0);
   --accent: oklch(0.97 0 0);
@@ -69,7 +69,6 @@
   --color-accent: var(--accent);
   --color-muted-foreground: var(--muted-foreground);
   --color-muted: var(--muted);
-  --color-secondary-foreground: var(--secondary-foreground);
   --color-secondary: var(--secondary);
   --color-primary-foreground: var(--primary-foreground);
   --color-primary: var(--primary);

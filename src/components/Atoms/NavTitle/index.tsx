@@ -7,8 +7,8 @@ interface Indexprops {
 const Index = ({ title = 'Title', link = '/' }: Indexprops) => {
   return (
     <Link href={link}>
-      <div className='h-20 flex justify-center text-bank3 items-center hover:text-bank2 cursor-pointer hover:border-b-2 hover:border-bank1 '>
-        <h1 className='text-sm  font-normal'>{title}</h1>
+      <div className='pl-4 h-16 flex justify-start text-primary items-center hover:text-white cursor-pointer hover:border-b-2 hover:bg-secondary-hover '>
+        <h1 className='text-md font-bold'>{title}</h1>
       </div>
     </Link>
   );
