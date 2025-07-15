@@ -7,6 +7,10 @@
 @custom-variant dark (&:is(.dark *));
 
 :root {
+  --color-task-pending: #F59E0B;
+  --color-task-review: #9333EA;
+  --color-task-progress: #3B82F6;
+  --color-task-done: #22C55E;
   --color-primary: #00305B;
   --color-primary-hover: #004B87;
   --color-secondary: #F0F7FF;
